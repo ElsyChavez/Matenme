@@ -45,3 +45,19 @@ class MainActivity : AppCompatActivity(), FakeBarFragment.OnSelectOption {
         }
     }
 }
+
+/*
+imagen.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                if (event.getAction() == MotionEvent.ACTION_DOWN){
+                    imagen.setImageResource(R.drawable.correo2);
+                }else if(event.getAction() == MotionEvent.ACTION_UP){
+                    imagen.setImageResource(R.drawable.imagen_actual);
+                }
+
+                return true;
+            }
+        });
+*/
